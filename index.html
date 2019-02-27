@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-9">
+	<title>D3 Page Template</title>
+	<script type="text/javascript" src="d3.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+	animals = ["Red Panda", "Penguin", "Bear", "cat", "dog"]
+	d3.select("body").append("ol");
+	animals.forEach(function(e)
+	{
+		d3.select("body").append("li").text(e)
+	});
+
+	</script>
+</body>
+</html>
